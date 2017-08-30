@@ -48,6 +48,14 @@
         android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
 
     <Preference
+        android:key="top_level_customizerhub"
+        android:title="@string/customizerhub_title"
+        android:summary="@string/customizerhub_activity_summary"
+        android:icon="@drawable/ic_homepage_customizerhub"
+        android:order="-95"
+        android:fragment="com.exos.customizerhub.CustomizerHubSettings"/>
+
+    <Preference
         android:key="top_level_battery"
         android:title="@string/power_usage_summary_title"
         android:summary="@string/summary_placeholder"

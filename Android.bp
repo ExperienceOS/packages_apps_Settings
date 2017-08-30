@@ -27,7 +27,15 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java"],
+    srcs: ["src/**/*.java",
+           "CustomizerHub/**/*.java",
+    ],
+
+    resource_dirs: ["res",
+                    "CustomizerHub/res"
+    ],
+
+    aaptflags: ["--extra-packages com.exos.customizerhub"],
 
     resource_dirs: ["res",
                     "TouchGestures/res"

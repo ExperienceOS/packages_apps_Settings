@@ -241,4 +241,7 @@ public class Settings extends SettingsActivity {
      */
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
+    // ExperienceOS Settings
+    public static class CustomizerHubSettingsActivity extends SettingsActivity {}
+
 }
