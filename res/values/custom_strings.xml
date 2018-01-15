@@ -172,4 +172,7 @@
     <string name="maintainer">Maintainer</string>
     <string name="experience_maintainer">Unofficial Maintainer</string>
 
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
 </resources>
