@@ -138,4 +138,10 @@
     <string name="experience_settings_title">Customization</string>
     <string name="experience_dashboard_summary">Accent color, font &amp; more</string>
 
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux status</string>
+    <string name="selinux_status_disabled">Disabled</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+ 
 </resources>
