@@ -2,4 +2,6 @@
 
 <resources>
     <color name="settingsHeaderColor">@*android:color/accent_device_default_light</color>
+
+    <color name="homepage_container_bg">@android:color/transparent</color>
 </resources>
