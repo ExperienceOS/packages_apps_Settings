@@ -197,4 +197,9 @@
 
     <!-- Battery saver -->
     <string name="battery_saver_is_enabled">Battery saver is enabled</string>
+
+    <!-- Data usage -->
+    <string name="data_usage_period">Data usage period</string>
+    <string name="data_usage_daily">Daily</string>
+    <string name="data_usage_monthly">Monthly</string>
 </resources>
