@@ -168,4 +168,7 @@
     <string name="clock_style_title">Clock style</string>
     <string name="clock_style_summary">Customize lockscreen clock</string>
 
+    <!-- ExperienceOS maintainer -->
+    <string name="maintainer">Maintainer</string>
+
 </resources>
