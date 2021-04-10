@@ -170,5 +170,6 @@
 
     <!-- ExperienceOS maintainer -->
     <string name="maintainer">Maintainer</string>
+    <string name="experience_maintainer">Unofficial Maintainer</string>
 
 </resources>
