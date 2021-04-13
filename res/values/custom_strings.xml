@@ -214,4 +214,7 @@
     <string name="battery_stats_reset">Clear usage data?</string>
     <string name="battery_stats_message">Battery usage data will be lost</string>
     <string name="battery_stats_clear">@string/proxy_clear_text</string>
+
+    <!-- Battery saver -->
+    <string name="battery_saver_is_enabled">Battery saver is enabled</string>
 </resources>
