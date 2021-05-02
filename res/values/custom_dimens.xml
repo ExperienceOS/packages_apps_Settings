@@ -78,4 +78,8 @@
 
     <!-- Fingerprint -->
     <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
+
+    <!-- OnePlus fonts -->
+    <dimen name="op_line_space_multiplier_h2">0.8</dimen>
+
 </resources>

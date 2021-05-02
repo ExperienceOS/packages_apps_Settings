@@ -228,6 +228,15 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         }
         mBatteryTipPreferenceController.restoreInstanceState(icicle);
         updateBatteryTipFlag(icicle);
+
+        final TextView showStatsBtn = mBatteryLayoutPref.findViewById(R.id.btn_show_stats);
+        showStatsBtn.setOnClickListener(v -> {
+           new SubSettingLauncher(getContext())
+                   .setDestination(PowerUsageAdvanced.class.getName())
+                   .setSourceMetricsCategory(getMetricsCategory())
+                   .setTitleRes(R.string.advanced_battery_title)
+                   .launch();
+        });
     }
 
     @Override
