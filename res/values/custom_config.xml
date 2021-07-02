@@ -15,8 +15,4 @@
     <!-- Whether assist gesture settings should be enabled -->
     <bool name="config_should_enable_assist_gesture_settings">true</bool>
 
-    <!-- Whether to show or hide sensitive info (like IMEI and Phone Number) on About phone -->
-    <bool name="configShowDeviceSensitiveInfo">false</bool>
-
-
 </resources>

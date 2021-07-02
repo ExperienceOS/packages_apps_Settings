@@ -195,9 +195,6 @@
     <!-- Themes customization -->
     <string name="theme_customization_systemui_title">Color bucket</string>
 
-    <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
-
     <!-- Battery saver -->
     <string name="battery_saver_is_enabled">Battery saver is enabled</string>
 </resources>
