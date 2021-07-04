@@ -1,2 +1,2 @@
-# Customization
+# Customizer
 -keep class com.experience.settings.**

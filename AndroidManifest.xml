@@ -3463,13 +3463,13 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <!-- Customization -->
-        <activity android:name="Settings$CustomizationActivity"
+        <!-- Customization/Customizer -->
+        <activity android:name="Settings$CustomizerActivity"
             android:label="@string/experience_settings_title"
             android:icon="@drawable/ic_homepage_experience"
             android:taskAffinity="com.android.settings">
             <intent-filter android:priority="1">
-                <action android:name="com.experience.settings.Customization" />
+                <action android:name="com.experience.settings.Customizer" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
@@ -3485,7 +3485,7 @@
                 android:value="com.android.settings.category.ia.homepage" />
             <meta-data android:name="com.android.settings.order" android:value="-105"/>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.experience.settings.Customization" />
+                android:value="com.experience.settings.Customizer" />
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
             <meta-data android:name="com.android.settings.summary"

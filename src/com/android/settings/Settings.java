@@ -242,8 +242,8 @@ public class Settings extends SettingsActivity {
     public static class MediaControlsSettingsActivity extends SettingsActivity {}
 
     /**
-     * Activity for Customization
+     * Activity for Customizer
      */
-    public static class CustomizationActivity extends SettingsActivity { /* empty */ }
+    public static class CustomizerActivity extends SettingsActivity { /* empty */ }
 
 }

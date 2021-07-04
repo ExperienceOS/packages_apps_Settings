@@ -28,13 +28,13 @@ android_library {
     ],
 
     srcs: ["src/**/*.java",
-          "Customization/src/**/*.java",
+          "Customizer/src/**/*.java",
     ],
 
     aaptflags: ["--extra-packages com.experience.settings"],
 
     resource_dirs: ["res",
-                    "Customization/res",
+                    "Customizer/res",
                     "TouchGestures/res"
     ],
 
