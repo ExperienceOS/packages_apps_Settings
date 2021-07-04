@@ -17,22 +17,16 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/settings_homepage_container"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
     <com.android.settings.edgeeffect.SpringNestScrollView
-        android:layout_width="fill_parent"
-        android:scrollbarThumbVertical="@android:color/transparent"  
-        android:scrollbarThumbHorizontal="@android:color/transparent"
-        android:layout_height="fill_parent">
-
-        <androidx.core.widget.NestedScrollView
             android:id="@+id/main_content_scrollable_container"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
     	    android:scrollbarThumbVertical="@android:color/transparent"  
     	    android:scrollbarThumbHorizontal="@android:color/transparent"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             app:layout_behavior="com.android.settings.widget.FloatingAppBarScrollingViewBehavior">
 
             <LinearLayout
@@ -55,7 +49,6 @@
                     android:animateLayoutChanges="true"
                     android:background="?android:attr/windowBackground" />
             </LinearLayout>
-        </androidx.core.widget.NestedScrollView>
 
     </com.android.settings.edgeeffect.SpringNestScrollView>
 
