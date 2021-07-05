@@ -42,8 +42,8 @@
     <color name="gestures_setting_background_color">@android:color/black</color>
     <color name="divider_color">#20212121</color>
 
-    <!-- Customizer settings icon background-->
-    <color name="homepage_customizer_background">#5E97F6</color>
+    <!-- CustomizerHub settings icon background-->
+    <color name="homepage_customizerhub_background">#5E97F6</color>
 
     <!-- OnePlus-->
     <color name="oneplus_homepage_icon_background">#000000</color>
