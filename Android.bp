@@ -27,14 +27,9 @@ android_library {
         "SettingsLib-search-defaults",
     ],
 
-    srcs: ["src/**/*.java",
-          "Customizer/src/**/*.java",
-    ],
-
-    aaptflags: ["--extra-packages com.experience.settings"],
+    srcs: ["src/**/*.java"],
 
     resource_dirs: ["res",
-                    "Customizer/res",
                     "TouchGestures/res"
     ],
 
@@ -76,9 +71,6 @@ android_library {
         "ims-common",
         "app-compat-annotations",
     ],
-    optimize: {
-        proguard_flags_files: ["proguard-core.flags"],
-    },
 }
 
 platform_compat_config {

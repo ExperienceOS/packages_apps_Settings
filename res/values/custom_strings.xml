@@ -134,10 +134,6 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
 
-    <!-- Customization -->
-    <string name="experience_settings_title">Customization</string>
-    <string name="experience_dashboard_summary">Accent color, font &amp; more</string>
-
     <!-- SELinux Status -->
     <string name="selinux_status">SELinux status</string>
     <string name="selinux_status_disabled">Disabled</string>
