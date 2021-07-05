@@ -32,14 +32,11 @@ android_library {
     ],
 
     resource_dirs: ["res",
-                    "CustomizerHub/res"
+                    "CustomizerHub/res",
+		    "TouchGestures/res"
     ],
 
     aaptflags: ["--extra-packages com.exos.customizerhub"],
-
-    resource_dirs: ["res",
-                    "TouchGestures/res"
-    ],
 
     static_libs: [
         "androidx-constraintlayout_constraintlayout",

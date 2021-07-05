@@ -211,9 +211,6 @@
     <string name="battery_stats_message">Battery usage data will be lost</string>
     <string name="battery_stats_clear">@string/proxy_clear_text</string>
 
-    <!-- Battery saver -->
-    <string name="battery_saver_is_enabled">Battery saver is enabled</string>
-
     <!-- CustomizerHub -->
     <string name="customizerhub_title">CustomizerHub</string>
     <string name="customizerhub_activity_summary">Customize your device</string>
