@@ -175,12 +175,14 @@ public class ContextualCardLoaderTest {
                 .setSliceUri(Uri.parse(
                         "content://com.android.settings.test.slices/action/gesture_pick_up"))
                 .build());
+        /*
         cards.add(new ContextualCard.Builder()
                 .setName("test_wifi")
                 .setCardType(ContextualCard.CardType.SLICE)
                 .setSliceUri(CustomSliceRegistry.CONTEXTUAL_WIFI_SLICE_URI)
                 .setCategory(STICKY_VALUE)
                 .build());
+        */
         cards.add(new ContextualCard.Builder()
                 .setName("test_connected")
                 .setCardType(ContextualCard.CardType.SLICE)

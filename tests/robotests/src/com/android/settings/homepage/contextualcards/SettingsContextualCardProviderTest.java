@@ -69,6 +69,7 @@ public class SettingsContextualCardProviderTest {
         assertThat(cards.getCardCount()).isEqualTo(actualNo);
     }
 
+    /*
     @Test
     public void getContextualCards_wifiSlice_shouldGetImportantCategory() {
         final ContextualCardList cards = mProvider.getContextualCards();
@@ -82,4 +83,5 @@ public class SettingsContextualCardProviderTest {
 
         assertThat(wifiCard.getCardCategory()).isEqualTo(ContextualCard.Category.IMPORTANT);
     }
+    */
 }
