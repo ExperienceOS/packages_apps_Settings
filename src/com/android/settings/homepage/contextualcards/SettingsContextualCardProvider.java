@@ -39,13 +39,13 @@ public class SettingsContextualCardProvider extends ContextualCardProvider {
                         .setCardName(CustomSliceRegistry.CONTEXTUAL_WIFI_SLICE_URI.toString())
                         .setCardCategory(ContextualCard.Category.IMPORTANT)
                         .build();
-        */
         final ContextualCard connectedDeviceCard =
                 ContextualCard.newBuilder()
                         .setSliceUri(CustomSliceRegistry.BLUETOOTH_DEVICES_SLICE_URI.toString())
                         .setCardName(CustomSliceRegistry.BLUETOOTH_DEVICES_SLICE_URI.toString())
                         .setCardCategory(ContextualCard.Category.IMPORTANT)
                         .build();
+	*/
         final ContextualCard lowStorageCard =
                 ContextualCard.newBuilder()
                         .setSliceUri(CustomSliceRegistry.LOW_STORAGE_SLICE_URI.toString())
@@ -79,8 +79,8 @@ public class SettingsContextualCardProvider extends ContextualCardProvider {
                         .setCardCategory(ContextualCard.Category.IMPORTANT)
                         .build();
         final ContextualCardList cards = ContextualCardList.newBuilder()
-                // .addCard(wifiCard)
-                .addCard(connectedDeviceCard)
+                //.addCard(wifiCard)
+                //.addCard(connectedDeviceCard)
                 .addCard(lowStorageCard)
                 .addCard(batteryFixCard)
                 .addCard(contextualAdaptiveSleepCard)
