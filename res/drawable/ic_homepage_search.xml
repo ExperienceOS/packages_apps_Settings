@@ -20,7 +20,7 @@
         android:height="24dp"
         android:viewportWidth="24"
         android:viewportHeight="24"
-        android:tint="?android:attr/colorAccent">
+        android:tint="?android:attr/colorPrimary">
     <path
         android:fillColor="#FF000000"
         android:pathData="M9.5,3C13.0899,3 16,5.9101 16,9.5C16,10.9938 15.4961,12.3699 14.649,13.4676L20.3887,19.2367L19.1837,20.4359L13.4432,14.6677C12.3496,15.5035 10.9828,16 9.5,16C5.9101,16 3,13.0899 3,9.5C3,5.9101 5.9101,3 9.5,3ZM9.5,4.7C6.849,4.7 4.7,6.849 4.7,9.5C4.7,12.151 6.849,14.3 9.5,14.3C12.151,14.3 14.3,12.151 14.3,9.5C14.3,6.849 12.151,4.7 9.5,4.7Z"/>
