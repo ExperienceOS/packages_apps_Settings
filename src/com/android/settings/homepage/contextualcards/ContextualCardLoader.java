@@ -232,12 +232,12 @@ public class ContextualCardLoader extends AsyncLoaderCompat<List<ContextualCard>
         }
         return cards;
     }
-    /*
     private boolean isLargeCard(ContextualCard card) {
-        return card.getSliceUri().equals(CONTEXTUAL_WIFI_SLICE_URI)
-                || card.getSliceUri().equals(BLUETOOTH_DEVICES_SLICE_URI);
+        //return card.getSliceUri().equals(CONTEXTUAL_WIFI_SLICE_URI)
+                //|| card.getSliceUri().equals(BLUETOOTH_DEVICES_SLICE_URI);
+          return card == null;
     }
-    */
+
     public interface CardContentLoaderListener {
         void onFinishCardLoading(List<ContextualCard> contextualCards);
     }
