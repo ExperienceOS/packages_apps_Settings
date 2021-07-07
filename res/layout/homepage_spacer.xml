@@ -33,6 +33,6 @@
         android:layout_marginTop="21dp"
         android:layout_marginLeft="16dp"
         android:text="@string/settings_label"
-        android:tint="?android:attr/colorControlNormal" />
+        android:color="?android:attr/colorControlNormal" />
 
 </com.google.android.material.card.MaterialCardView>
