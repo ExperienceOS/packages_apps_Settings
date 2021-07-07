@@ -28,7 +28,7 @@
         android:layout_gravity="end"
         android:layout_width="wrap_content"
         android:layout_height="@dimen/search_bar_height"
-        android:paddingEnd="5dp"
+        android:paddingEnd="3dp"
         android:background="@drawable/search_bar_selected_background"
         android:contentInsetStartWithNavigation="@dimen/search_bar_content_inset"
         android:navigationIcon="@drawable/ic_homepage_search">
