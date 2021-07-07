@@ -331,17 +331,17 @@
     <dimen name="reset_checkbox_summary_text_size">14sp</dimen>
 
     <!-- Homepage cards size and padding -->
-    <dimen name="contextual_card_icon_size">24dp</dimen>
-    <dimen name="contextual_card_vertical_margin">8dp</dimen>
-    <dimen name="contextual_card_side_margin">8dp</dimen>
-    <dimen name="contextual_card_icon_padding_start">14dp</dimen>
-    <dimen name="contextual_card_text_padding_start">16dp</dimen>
-    <dimen name="contextual_card_padding_end">16dp</dimen>
-    <dimen name="contextual_card_corner_radius">@*android:dimen/config_dialogCornerRadius</dimen>
-    <dimen name="contextual_full_card_padding_end">12dp</dimen>
-    <dimen name="contextual_half_card_padding_top">12dp</dimen>
-    <dimen name="contextual_half_card_padding_bottom">16dp</dimen>
-    <dimen name="contextual_half_card_title_margin_top">12dp</dimen>
+    <dimen name="contextual_card_icon_size">0dp</dimen>
+    <dimen name="contextual_card_vertical_margin">0dp</dimen>
+    <dimen name="contextual_card_side_margin">0dp</dimen>
+    <dimen name="contextual_card_icon_padding_start">0dp</dimen>
+    <dimen name="contextual_card_text_padding_start">0dp</dimen>
+    <dimen name="contextual_card_padding_end">0dp</dimen>
+    <dimen name="contextual_card_corner_radius">0dp</dimen>
+    <dimen name="contextual_full_card_padding_end">0dp</dimen>
+    <dimen name="contextual_half_card_padding_top">0dp</dimen>
+    <dimen name="contextual_half_card_padding_bottom">0dp</dimen>
+    <dimen name="contextual_half_card_title_margin_top">0dp</dimen>
     <dimen name="contextual_card_preallocated_height">0dp</dimen>
 
     <!-- Homepage dismissal cards size and padding -->
