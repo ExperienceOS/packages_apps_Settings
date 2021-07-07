@@ -15,24 +15,52 @@
      limitations under the License.
 -->
 
-<com.google.android.material.card.MaterialCardView
+<com.google.android.material.appbar.CollapsingToolbarLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/settings_homepage_spacer"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/homepage_spacer_height"
+    android:layout_height="wrap_content"
     android:outlineProvider="none"
-    app:cardBackgroundColor="?android:attr/colorPrimary"
-    app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+    app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
-    <TextView 
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:textAppearance="@style/homepage_spacer_title_style"
-        android:layout_gravity="left"
-        android:layout_marginTop="21dp"
-        android:layout_marginLeft="16dp"
-        android:text="@string/settings_label"
-        android:color="?android:attr/colorControlNormal" />
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/homepage_spacer_height"
+        android:outlineProvider="none"
+        app:cardBackgroundColor="?android:attr/colorPrimary"
+        app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
 
-</com.google.android.material.card.MaterialCardView>
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAppearance="@style/homepage_spacer_title_style"
+            android:layout_gravity="left"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="16dp"
+            android:text="@string/settings_label"
+            android:color="?android:attr/colorControlNormal" />
+
+       <com.google.android.material.card.MaterialCardView
+            android:id="@+id/search_bar"
+            style="@style/SearchBarStyle"
+            android:layout_gravity="end"
+            android:paddingEnd="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shape="ring"
+            app:cardCornerRadius="160dp"
+            android:outlineProvider="none">
+                <Toolbar
+                    android:id="@+id/search_action_bar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/search_bar_height"
+                    android:paddingEnd="0dp"
+                    android:background="@drawable/search_bar_selected_background"
+                    android:contentInsetStartWithNavigation="@dimen/search_bar_content_inset"
+                    android:navigationIcon="@drawable/ic_homepage_search">
+                </Toolbar>
+        </com.google.android.material.card.MaterialCardView>
+
+    </com.google.android.material.card.MaterialCardView>
+</com.google.android.material.appbar.CollapsingToolbarLayout>
