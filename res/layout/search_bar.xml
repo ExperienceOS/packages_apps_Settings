@@ -35,11 +35,5 @@
         android:background="@drawable/search_bar_selected_background"
         android:contentInsetStartWithNavigation="@dimen/search_bar_content_inset"
         android:navigationIcon="@drawable/ic_homepage_search">
-        <TextView
-            android:id="@+id/search_action_bar_title"
-            style="@style/TextAppearance.SearchBar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/search_menu"/>
     </Toolbar>
 </com.google.android.material.card.MaterialCardView>
