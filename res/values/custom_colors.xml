@@ -40,4 +40,6 @@
     <color name="oos_bg_of_card">#f1f1f1</color>
     <color name="home_oos_bg_of_card">#f1f1f1</color>
 
+    <!-- (TEST) Make search bar background transparent -->
+    <color name="search_bar_bg_transparent">@android:color/transparent</color>
 </resources>
