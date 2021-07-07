@@ -37,9 +37,14 @@
                 android:orientation="vertical"
 		android:background="@color/homepage_container_bg">
  
-                <include layout="@layout/homepage_spacer"/>
-
-                <include layout="@layout/search_bar"/>
+                <com.google.android.material.appbar.AppBarLayout
+                    android:layout_width="match_parent"
+                    android:touchscreenBlocksFocus="false"
+                    android:keyboardNavigationCluster="false"
+                    android:layout_height="wrap_content">
+                    <include layout="@layout/homepage_spacer"/>
+                    <include layout="@layout/search_bar"/>
+                </com.google.android.material.appbar.AppBarLayout>
 
                 <FrameLayout
                     android:id="@+id/contextual_cards_content"
