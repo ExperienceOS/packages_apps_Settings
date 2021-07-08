@@ -87,4 +87,9 @@
     <dimen name="oneplus_settings_storage_summary_donut_margin_top">22dp</dimen>
     <dimen name="oneplus_settings_storage_summary_donut_padding_bottom">26dp</dimen>
 
+    <!-- ExperienceOS Settings Special -->
+    <dimen name="icon_frame_min_width">48dp</dimen>
+    <dimen name="icon_max_height">30dp</dimen>
+    <dimen name="icon_max_width">30dp</dimen>
+
 </resources>
