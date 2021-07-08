@@ -91,5 +91,7 @@
     <dimen name="icon_frame_min_width">48dp</dimen>
     <dimen name="icon_max_height">30dp</dimen>
     <dimen name="icon_max_width">30dp</dimen>
+    <dimen name="vivo_preference_category_title_text_size">13sp</dimen>
+    <dimen name="vivo_preference_summary_text_size">15sp</dimen>
     <dimen name="vivo_preference_title_text_size">17sp</dimen>
 </resources>
