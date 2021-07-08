@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/list_security_top_margin" android:paddingBottom="@dimen/list_security_top_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:background="@color/top_level_category_divider" android:layout_width="match_parent" android:layout_height="20dp"/>
+</LinearLayout>
