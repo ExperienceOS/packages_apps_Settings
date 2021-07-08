@@ -120,10 +120,10 @@
     <dimen name="switchbar_subsettings_margin_start">72dp</dimen>
     <dimen name="switchbar_subsettings_margin_end">16dp</dimen>
 
-    <dimen name="search_bar_margin">14dp</dimen>
+    <dimen name="search_bar_margin">10dp</dimen>
 
     <dimen name="search_bar_height">56dp</dimen>
-    <dimen name="search_bar_corner_radius">@*android:dimen/config_dialogCornerRadius</dimen>
+    <dimen name="search_bar_corner_radius">160dp</dimen>
     <dimen name="search_bar_text_size">16dp</dimen>
     <dimen name="search_bar_card_elevation">2dp</dimen>
     <dimen name="search_bar_content_inset">64dp</dimen>
@@ -345,10 +345,10 @@
     <dimen name="contextual_card_preallocated_height">0dp</dimen>
 
     <!-- Homepage dismissal cards size and padding -->
-    <dimen name="contextual_card_dismissal_margin_top">12dp</dimen>
-    <dimen name="contextual_card_dismissal_side_margin">16dp</dimen>
-    <dimen name="contextual_card_dismissal_button_margin_start">4dp</dimen>
-    <dimen name="contextual_card_dismissal_button_margin_end">6dp</dimen>
+    <dimen name="contextual_card_dismissal_margin_top">0dp</dimen>
+    <dimen name="contextual_card_dismissal_side_margin">0dp</dimen>
+    <dimen name="contextual_card_dismissal_button_margin_start">0dp</dimen>
+    <dimen name="contextual_card_dismissal_button_margin_end">0dp</dimen>
 
     <!-- Horizontal divider size and margin -->
     <dimen name="horizontal_divider_height">.75dp</dimen>
