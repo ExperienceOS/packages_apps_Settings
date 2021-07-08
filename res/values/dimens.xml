@@ -425,4 +425,6 @@
     <!-- Text padding for EmptyTextSettings -->
     <dimen name="empty_text_padding">24dp</dimen>
 
+    <dimen name="top_level_preference_min_height">82dp</dimen>
+    <dimen name="top_level_category_divider">8dp</dimen>
 </resources>
