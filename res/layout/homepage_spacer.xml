@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2019 Extended-UI
+     Copyright (C) 2021 ExperienceOS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -29,7 +30,7 @@
         android:layout_height="@dimen/homepage_spacer_height"
         android:outlineProvider="none"
         app:cardBackgroundColor="?android:attr/colorPrimary"
-        app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+        app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
         <TextView 
             android:layout_height="wrap_content"
