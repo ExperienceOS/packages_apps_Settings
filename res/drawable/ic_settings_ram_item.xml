@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="30dp" android:width="30dp" android:viewportWidth="30" android:viewportHeight="30">
     <path android:fillColor="#8f7ff7" android:pathData="M15,15m-15,0a15,15 0,1 1,30 0a15,15 0,1 1,-30 0" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="0"/>
-    <path android:fillColor="@drawable/$ic_settings_ram_item__0" android:pathData="M15,15m-6.9643,0a6.9643,6.9643 0,1 1,13.9286 0a6.9643,6.9643 0,1 1,-13.9286 0" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="0"/>
+    <path android:fillColor="@drawable/ic_settings_ram_item__0" android:pathData="M15,15m-6.9643,0a6.9643,6.9643 0,1 1,13.9286 0a6.9643,6.9643 0,1 1,-13.9286 0" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="0"/>
     <path android:fillColor="#ffffff" android:pathData="M14.9689,21.9054C11.1401,21.9054 8.0363,18.8015 8.0363,14.9727C8.0363,11.1439 11.1401,8.04 14.9689,8.04L14.9689,14.9732L20.4279,19.2439C19.1183,20.9283 17.1024,21.9111 14.9689,21.9054Z" android:strokeColor="#00000000" android:strokeWidth="1" android:fillType="0"/>
 </vector>
