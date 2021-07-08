@@ -13,5 +13,9 @@
     <!-- Contextual cards color -->
     <color name="oos_bg_of_card">@*android:color/material_grey_800</color>
     <color name="home_oos_bg_of_card">@*android:color/material_grey_800</color>
+
+    <!-- ExOS Settings Special -->
+    <color name="top_level_category_divider">#1a1a1a</color>
+
 </resources>
 
