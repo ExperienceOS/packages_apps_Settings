@@ -95,4 +95,6 @@
     <dimen name="vivo_preference_summary_text_size">15sp</dimen>
     <dimen name="vivo_preference_title_text_size">17sp</dimen>
     <dimen name="list_security_top_margin">10dp</dimen>
+    <dimen name="top_level_category_divider">8dp</dimen>
+
 </resources>
