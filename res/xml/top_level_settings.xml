@@ -160,7 +160,7 @@
         android:key="top_level_about_device"
         android:title="@string/about_settings"
         android:summary="@string/summary_placeholder"
-        android:icon="@drawable/op_ic_homepage_about_settings"
+        android:icon="@drawable/ic_about_phone"
         android:layout="@layout/op_home_preference_card_bottom"  
         android:order="20"
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
@@ -170,7 +170,7 @@
         android:key="top_level_support"
         android:summary="@string/support_summary"
         android:title="@string/page_tab_title_support"
-        android:icon="@drawable/ic_about_phone"
+        android:icon="@drawable/ic_homepage_support"
         android:order="100"
         settings:controller="com.android.settings.support.SupportPreferenceController"/>
 
