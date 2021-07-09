@@ -44,6 +44,6 @@
     <color name="search_bar_bg_transparent">@android:color/transparent</color>
 
      <!-- ExOS Settings Special -->
-    <color name="top_level_category_divider">#fff7f7f7</color>
+    <color name="top_level_category_divider">@android:color/transparent</color>
 
 </resources>
