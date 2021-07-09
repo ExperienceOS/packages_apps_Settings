@@ -112,7 +112,7 @@
         android:title="@string/location_settings_title"
         android:layout="@layout/op_home_preference_card_middle"  
         android:summary="@string/location_settings_loading_app_permission_stats"
-        android:icon="@drawable/ic_settings_location"
+        android:icon="@drawable/ic_location_settings"
         android:order="-50"
         android:fragment="com.android.settings.location.LocationSettings"
         settings:controller="com.android.settings.location.TopLevelLocationPreferenceController"/>
