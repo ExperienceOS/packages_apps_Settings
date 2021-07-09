@@ -38,12 +38,14 @@
 		android:background="@color/homepage_container_bg"
                 android:descendantFocusability="blocksDescendants">
 
+		<!--
 		<FrameLayout
 		    android:id="@+id/contextual_cards_content"
 		    android:layout_width="0dp"
 		    android:layout_height="0dp"
 		    android:layout_marginStart="@dimen/contextual_card_side_margin"
 		    android:layout_marginEnd="@dimen/contextual_card_side_margin" />
+		-->
 
                 <FrameLayout
                     android:id="@+id/main_content"
