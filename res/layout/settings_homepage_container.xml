@@ -40,7 +40,7 @@
 
                 <com.google.android.material.appbar.AppBarLayout
                     android:layout_width="match_parent"
-                    android:background="@drawable/search_bar_selected_background"
+                    android:background="@color/homepage_container_bg"
                     android:touchscreenBlocksFocus="false"
                     android:keyboardNavigationCluster="false"
                     android:layout_height="wrap_content">
