@@ -52,7 +52,6 @@
             android:layout_height="wrap_content"
             android:shape="ring"
             app:cardCornerRadius="160dp"
-            app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.Experience.Button.Circle"
             android:outlineProvider="none">
                 <Toolbar
                     android:id="@+id/search_action_bar"
