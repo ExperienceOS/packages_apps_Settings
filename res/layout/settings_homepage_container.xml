@@ -18,7 +18,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/settings_homepage_container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/homepage_container_bg"
     android:fitsSystemWindows="true">
 
     <com.android.settings.edgeeffect.SpringNestScrollView
@@ -26,8 +27,7 @@
             android:layout_width="match_parent"
     	    android:scrollbarThumbVertical="@android:color/transparent"  
     	    android:scrollbarThumbHorizontal="@android:color/transparent"
-            android:layout_height="match_parent"
-            android:overScrollMode="never"
+            android:layout_height="wrap_content"
             app:layout_behavior="com.android.settings.widget.FloatingAppBarScrollingViewBehavior">
 
             <LinearLayout
