@@ -170,7 +170,7 @@
     <color name="palette_list_dark_mode_color_purple">#c58af9</color> <!-- Material Purple 300 -->
 
 
-    <color name="vivo_preference_title_text_color">?android:attr/colorControlNormal</color>
-    <color name="vivo_preference_summary_text_color">?android:attr/colorControlNormal</color>
+    <color name="vivo_preference_title_text_color">?android:attr/textColorPrimary</color>
+    <color name="vivo_preference_summary_text_color">?android:attr/textColorSecondary</color>
 
 </resources>
