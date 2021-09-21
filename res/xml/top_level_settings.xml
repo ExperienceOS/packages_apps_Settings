@@ -42,13 +42,14 @@
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
     <Preference
-        android:key="top_level_apps_and_notifs"
-        android:title="@string/app_and_notification_dashboard_title"
-        android:summary="@string/app_and_notification_dashboard_summary"
-        android:icon="@drawable/ic_com_android_systemui"
+        android:key="top_level_display"
+        android:title="@string/display_settings"
+        android:summary="@string/summary_placeholder"
         android:layout="@layout/op_home_preference_card_top"  
+        android:icon="@drawable/ic_settings_light_item"
         android:order="-100"
-        android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
+        android:fragment="com.android.settings.DisplaySettings"
+        settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
 
     <Preference
         android:key="top_level_customizerhub"
@@ -70,23 +71,22 @@
         settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
 
     <Preference
-        android:key="top_level_display"
-        android:title="@string/display_settings"
-        android:summary="@string/summary_placeholder"
-        android:layout="@layout/op_home_preference_card_middle"  
-        android:icon="@drawable/ic_settings_light_item"
-        android:order="-80"
-        android:fragment="com.android.settings.DisplaySettings"
-        settings:controller="com.android.settings.display.TopLevelDisplayPreferenceController"/>
-
-    <Preference
         android:key="top_level_sound"
         android:title="@string/sound_settings"
         android:layout="@layout/op_home_preference_card_middle"  
         android:summary="@string/sound_dashboard_summary"
         android:icon="@drawable/ic_settings_sound_item"
-        android:order="-70"
+        android:order="-80"
         android:fragment="com.android.settings.notification.SoundSettings"/>
+
+    <Preference
+        android:key="top_level_apps_and_notifs"
+        android:title="@string/app_and_notification_dashboard_title"
+        android:summary="@string/app_and_notification_dashboard_summary"
+        android:icon="@drawable/ic_com_android_systemui"
+        android:layout="@layout/op_home_preference_card_middle"  
+        android:order="-70"
+        android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
 
     <Preference
         android:key="top_level_storage"
