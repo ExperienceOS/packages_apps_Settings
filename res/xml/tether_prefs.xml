@@ -21,6 +21,7 @@
 
     <com.android.settings.widget.FixedLineSummaryPreference
         android:key="wifi_tether"
+        settings:iconSpaceReserved="false"
         android:title="@string/wifi_hotspot_checkbox_text"
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.wifi.tether.WifiTetherSettings"
@@ -28,30 +29,35 @@
 
     <SwitchPreference
         android:key="usb_tether_settings"
+        settings:iconSpaceReserved="false"
         android:title="@string/usb_tethering_button_text"
         android:summary="@string/usb_tethering_subtext"
         settings:keywords="@string/keywords_hotspot_tethering" />
 
     <SwitchPreference
         android:key="enable_bluetooth_tethering"
+        settings:iconSpaceReserved="false"
         android:title="@string/bluetooth_tether_checkbox_text"
         android:summary="@string/bluetooth_tethering_subtext"
         settings:keywords="@string/keywords_hotspot_tethering" />
 
     <SwitchPreference
         android:key="enable_ethernet_tethering"
+        settings:iconSpaceReserved="false"
         android:title="@string/ethernet_tether_checkbox_text"
         android:summary="@string/ethernet_tethering_subtext"
         settings:keywords="@string/keywords_hotspot_tethering" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference 
         android:key="tethering_allow_vpn_upstreams"
+        settings:iconSpaceReserved="false"
         android:title="@string/tethering_allow_vpn_upstreams_title"
         android:summary="@string/tethering_allow_vpn_upstreams_summary"
         android:defaultValue="false" />
 
     <Preference
         android:key="disabled_on_data_saver"
+        settings:iconSpaceReserved="false"
         android:summary="@string/tether_settings_disabled_on_data_saver"
         android:selectable="false"
         settings:allowDividerAbove="true" />
