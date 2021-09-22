@@ -237,6 +237,7 @@
         android:key="disable_sim_explanation"
         android:title="@string/mobile_network_disable_sim_explanation"
         android:selectable="false"
+        android:layout="@layout/info_accent_card"
         settings:allowDividerAbove="true"
         settings:searchable="false"
         settings:controller="com.android.settings.network.telephony.DisableSimFooterPreferenceController"/>
@@ -245,6 +246,7 @@
         android:key="no_5g_in_dsds_explanation"
         android:title="@string/no_5g_in_dsds_text"
         android:selectable="false"
+        android:layout="@layout/info_accent_card"
         settings:allowDividerAbove="true"
         settings:searchable="false"
         settings:controller="com.android.settings.network.telephony.NrDisabledInDsdsFooterPreferenceController"/>
