@@ -29,6 +29,7 @@
         android:key="available_devices"
         android:title="@string/bluetooth_paired_device_title"/>
 
-    <com.android.settingslib.widget.FooterPreference/>
+    <com.android.settingslib.widget.FooterPreference
+        android:layout="@layout/info_accent_card"/>
 
 </PreferenceScreen>
