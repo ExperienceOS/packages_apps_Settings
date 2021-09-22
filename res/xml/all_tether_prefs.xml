@@ -96,5 +96,6 @@
     <com.android.settingslib.widget.FooterPreference
         android:key="tether_prefs_footer_2"
         android:selectable="false"
+        android:layout="@layout/info_accent_card"
         settings:searchable="false"/>
 </PreferenceScreen>
