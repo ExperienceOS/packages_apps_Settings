@@ -212,8 +212,8 @@
     <string name="battery_stats_clear">@string/proxy_clear_text</string>
 
     <!-- CustomizerHub -->
-    <string name="customizerhub_title">CustomizerHub</string>
-    <string name="customizerhub_activity_summary">Customize your device</string>
+    <string name="customizerhub_title">Customization</string>
+    <string name="customizerhub_activity_summary">Minimal customizations for your device</string>
 
     <!-- Battery header -->
     <string name="oneplus_battery_header_title">^1%</string>
