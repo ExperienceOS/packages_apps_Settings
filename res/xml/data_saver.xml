@@ -31,6 +31,7 @@
         android:key="data_saver_footer"
         android:title="@*android:string/data_saver_description"
         android:selectable="false"
+        android:layout="@layout/info_accent_card"
         settings:searchable="false"/>
 
 </PreferenceScreen>
