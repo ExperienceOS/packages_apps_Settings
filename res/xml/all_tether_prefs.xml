@@ -28,25 +28,30 @@
         settings:searchable="false">
         <com.android.settings.wifi.tether.WifiTetherSsidPreference
             android:key="wifi_tether_network_name_2"
+            settings:iconSpaceReserved="false"
             android:title="@string/wifi_hotspot_name_title"
             android:summary="@string/summary_placeholder"/>
 
         <com.android.settings.widget.ValidatedEditTextPreference
             android:key="wifi_tether_network_password_2"
+            settings:iconSpaceReserved="false"
             android:persistent="false"
             android:title="@string/wifi_hotspot_password_title"/>
 
         <SwitchPreference
             android:key="wifi_tether_auto_turn_off_2"
+            settings:iconSpaceReserved="false"
             android:title="@string/wifi_hotspot_auto_off_title"
             android:summary="@string/wifi_hotspot_auto_off_summary"/>
 
         <ListPreference
             android:key="wifi_tether_network_ap_band_2"
+            settings:iconSpaceReserved="false"
             android:title="@string/wifi_hotspot_ap_band_title"/>
 
         <ListPreference
             android:key="wifi_tether_security_2"
+            settings:iconSpaceReserved="false"
             android:title="@string/wifi_security"
             android:summary="@string/summary_placeholder"
             android:entries="@array/wifi_tether_security"
@@ -59,6 +64,7 @@
         settings:searchable="false">
         <SwitchPreference
             android:key="enable_usb_tethering"
+            settings:iconSpaceReserved="false"
             android:title="@string/usb_tethering_button_text"
             android:summary="@string/usb_tethering_subtext"
             settings:controller="com.android.settings.network.UsbTetherPreferenceController"
@@ -66,6 +72,7 @@
 
         <SwitchPreference
             android:key="enable_bluetooth_tethering_2"
+            settings:iconSpaceReserved="false"
             android:title="@string/bluetooth_tether_checkbox_text"
             android:summary="@string/bluetooth_tethering_subtext"
             settings:controller="com.android.settings.network.BluetoothTetherPreferenceController"
@@ -73,6 +80,7 @@
 
         <SwitchPreference
             android:key="enable_ethernet_tethering_2"
+            settings:iconSpaceReserved="false"
             android:title="@string/ethernet_tether_checkbox_text"
             android:summary="@string/ethernet_tethering_subtext"
             settings:controller="com.android.settings.network.EthernetTetherPreferenceController"
@@ -80,6 +88,7 @@
 
         <SwitchPreference
             android:key="disable_wifi_tethering"
+            settings:iconSpaceReserved="false"
             android:title="@string/disable_wifi_hotspot_title"
             android:summary="@string/summary_placeholder"
             settings:controller="com.android.settings.network.WifiTetherDisablePreferenceController"
@@ -88,6 +97,7 @@
 
     <Preference
         android:key="disabled_on_data_saver_2"
+        settings:iconSpaceReserved="false"
         android:summary="@string/tether_settings_disabled_on_data_saver"
         android:selectable="false"
         settings:searchable="false"
