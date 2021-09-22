@@ -77,5 +77,6 @@
         android:key="power_usage_footer"
         android:title="@string/battery_footer_summary"
         android:selectable="false"
+        android:layout="@layout/info_accent_card"
         settings:searchable="false"/>
 </PreferenceScreen>
