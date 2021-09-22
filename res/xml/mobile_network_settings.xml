@@ -33,22 +33,26 @@
 
         <com.android.settings.datausage.DataUsageSummaryPreference
             android:key="status_header"
+            settings:iconSpaceReserved="false"
             android:visibility="gone"
             android:selectable="false"/>
 
         <ListPreference
             android:key="calls_preference"
+            settings:iconSpaceReserved="false"
             android:title="@string/calls_preference"
             settings:controller="com.android.settings.network.telephony.CallsDefaultSubscriptionController"
             settings:allowDividerAbove="true"/>
 
         <ListPreference
             android:key="sms_preference"
+            settings:iconSpaceReserved="false"
             android:title="@string/sms_preference"
             settings:controller="com.android.settings.network.telephony.SmsDefaultSubscriptionController"/>
 
         <Preference
             android:key="cdma_lte_data_service_key"
+            settings:iconSpaceReserved="false"
             android:title="@string/cdma_lte_data_service"
             settings:controller="com.android.settings.network.telephony.DataServiceSetupPreferenceController"
             settings:allowDividerAbove="true"
@@ -56,6 +60,7 @@
 
         <SwitchPreference
             android:key="mobile_data_enable"
+            settings:iconSpaceReserved="false"
             android:title="@string/mobile_data_settings_title"
             android:summary="@string/mobile_data_settings_summary"
             settings:controller="com.android.settings.network.telephony.MobileDataPreferenceController"
@@ -63,6 +68,7 @@
 
         <com.android.settingslib.RestrictedSwitchPreference
             android:key="button_roaming_key"
+            settings:iconSpaceReserved="false"
             android:title="@string/roaming"
             android:persistent="false"
             android:summaryOn="@string/roaming_enable"
@@ -72,28 +78,33 @@
 
         <Preference
             android:key="data_usage_summary"
+            settings:iconSpaceReserved="false"
             android:title="@string/mobile_data_usage_title"
             settings:controller="com.android.settings.network.telephony.DataUsagePreferenceController"/>
 
         <com.android.settings.datausage.BillingCyclePreference
             android:key="billing_preference"
+            settings:iconSpaceReserved="false"
             android:title="@string/billing_cycle"
             settings:controller="com.android.settings.datausage.BillingCyclePreferenceController"/>
 
         <SwitchPreference
             android:key="mms_message"
+            settings:iconSpaceReserved="false"
             android:title="@string/mms_message_title"
             android:summary="@string/mms_message_summary"
             settings:controller="com.android.settings.network.telephony.MmsMessagePreferenceController"/>
 
         <SwitchPreference
             android:key="data_during_calls"
+            settings:iconSpaceReserved="false"
             android:title="@string/data_during_calls_title"
             android:summary="@string/data_during_calls_summary"
             settings:controller="com.android.settings.network.telephony.DataDuringCallsPreferenceController"/>
 
         <SwitchPreference
             android:key="enhanced_4g_lte"
+            settings:iconSpaceReserved="false"
             android:title="@string/enhanced_4g_lte_mode_title"
             android:persistent="false"
             android:summary="@string/enhanced_4g_lte_mode_summary"
@@ -102,6 +113,7 @@
 
         <SwitchPreference
             android:key="4g_calling"
+            settings:iconSpaceReserved="false"
             android:title="@string/enhanced_4g_lte_mode_title_4g_calling"
             android:persistent="false"
             android:summary="@string/enhanced_4g_lte_mode_summary_4g_calling"
@@ -110,6 +122,7 @@
 
         <SwitchPreference
             android:key="advance_call"
+            settings:iconSpaceReserved="false"
             android:title="@string/enhanced_4g_lte_mode_title_advanced_calling"
             android:persistent="false"
             android:summary="@string/enhanced_4g_lte_mode_summary"
@@ -120,11 +133,13 @@
             android:key="contact_discovery_opt_in"
             android:title="@string/contact_discovery_opt_in_title"
             android:persistent="false"
+            settings:iconSpaceReserved="false"
             android:summary="@string/contact_discovery_opt_in_summary"
             settings:controller="com.android.settings.network.telephony.ContactDiscoveryPreferenceController"/>
 
         <ListPreference
             android:key="preferred_network_mode_key"
+            settings:iconSpaceReserved="false"
             android:title="@string/preferred_network_mode_title"
             android:summary="@string/preferred_network_mode_summary"
             android:entries="@array/preferred_network_mode_choices"
@@ -134,6 +149,7 @@
 
         <ListPreference
             android:key="enabled_networks_key"
+            settings:iconSpaceReserved="false"
             android:title="@string/preferred_network_mode_title"
             android:summary="@string/preferred_network_mode_summary"
             android:entries="@array/enabled_networks_choices"
@@ -145,6 +161,7 @@
             android:key="carrier_settings_version_key"
             android:title="@string/carrier_settings_version"
             android:enabled="false"
+            settings:iconSpaceReserved="false"
             android:shouldDisableView="false"
             android:selectable="false"
             settings:controller="com.android.settings.network.telephony.CarrierSettingsVersionPreferenceController"
@@ -157,6 +174,7 @@
 
             <PreferenceScreen
                 android:key="wifi_calling"
+                settings:iconSpaceReserved="false"
                 android:title="@string/wifi_calling_settings_title"
                 android:summary="@string/wifi_calling_summary"
                 settings:controller="com.android.settings.network.telephony.WifiCallingPreferenceController">
@@ -169,6 +187,7 @@
 
             <SwitchPreference
                 android:key="video_calling_key"
+                settings:iconSpaceReserved="false"
                 android:title="@string/video_calling_settings_title"
                 android:persistent="true"
                 settings:controller="com.android.settings.network.telephony.VideoCallingPreferenceController"/>
@@ -177,6 +196,7 @@
 
         <com.android.settings.network.telephony.cdma.CdmaListPreference
             android:key="cdma_system_select_key"
+            settings:iconSpaceReserved="false"
             android:title="@string/cdma_system_select_title"
             android:summary="@string/cdma_system_select_summary"
             android:entries="@array/cdma_system_select_choices"
@@ -186,6 +206,7 @@
 
         <com.android.settings.network.telephony.cdma.CdmaListPreference
             android:key="cdma_subscription_key"
+            settings:iconSpaceReserved="false"
             android:title="@string/cdma_subscription_title"
             android:summary="@string/cdma_subscription_summary"
             android:entries="@array/cdma_subscription_choices"
@@ -200,11 +221,13 @@
 
             <SwitchPreference
                 android:key="auto_select_key"
+                settings:iconSpaceReserved="false"
                 android:title="@string/select_automatically"
                 settings:controller="com.android.settings.network.telephony.gsm.AutoSelectPreferenceController"/>
 
             <Preference
                 android:key="choose_network_key"
+                settings:iconSpaceReserved="false"
                 android:title="@string/choose_network_title"
                 android:fragment="com.android.phone.NetworkSelectSetting"
                 settings:controller="com.android.settings.network.telephony.gsm.OpenNetworkSelectPagePreferenceController"/>
@@ -214,12 +237,14 @@
         <com.android.settingslib.RestrictedPreference
             android:key="telephony_apn_key"
             android:persistent="false"
+            settings:iconSpaceReserved="false"
             android:title="@string/mobile_network_apn_title"
             settings:allowDividerAbove="true"
             settings:controller="com.android.settings.network.telephony.ApnPreferenceController"/>
 
         <Preference
             android:key="carrier_settings_key"
+            settings:iconSpaceReserved="false"
             android:title="@string/carrier_settings_title"
             settings:controller="com.android.settings.network.telephony.CarrierPreferenceController">
         </Preference>
@@ -229,6 +254,7 @@
     <Preference
         android:key="erase_sim"
         android:persistent="false"
+        settings:iconSpaceReserved="false"
         android:title="@string/mobile_network_erase_sim"
         settings:allowDividerBelow="true"
         settings:controller="com.android.settings.network.telephony.DeleteSimProfilePreferenceController"/>
