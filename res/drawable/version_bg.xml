@@ -2,10 +2,10 @@
     android:shape="rectangle">
 
     <corners
-        android:bottomLeftRadius="18dp"
-        android:bottomRightRadius="18dp"
-        android:topLeftRadius="18dp"
-        android:topRightRadius="18dp" />
+        android:bottomLeftRadius="12dp"
+        android:bottomRightRadius="12dp"
+        android:topLeftRadius="12dp"
+        android:topRightRadius="12dp" />
 
     <solid android:color="@drawable/color_accent_alpha" />
 
