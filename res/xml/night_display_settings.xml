@@ -29,22 +29,26 @@
 
     <ListPreference
         android:key="night_display_auto_mode"
+        settings:iconSpaceReserved="false"
         android:title="@string/night_display_auto_mode_title"
         android:summary="%s"
         settings:controller="com.android.settings.display.NightDisplayAutoModePreferenceController"/>
 
     <Preference
         android:key="night_display_start_time"
+        settings:iconSpaceReserved="false"
         android:title="@string/night_display_start_time_title"
         settings:controller="com.android.settings.display.NightDisplayCustomStartTimePreferenceController"/>
 
     <Preference
         android:key="night_display_end_time"
+        settings:iconSpaceReserved="false"
         android:title="@string/night_display_end_time_title"
         settings:controller="com.android.settings.display.NightDisplayCustomEndTimePreferenceController"/>
 
     <com.android.settings.widget.SeekBarPreference
         android:key="night_display_temperature"
+        settings:iconSpaceReserved="false"
         android:title="@string/night_display_temperature_title"
         settings:keywords="@string/keywords_display_night_display"
         settings:controller="com.android.settings.display.NightDisplayIntensityPreferenceController"
@@ -54,6 +58,7 @@
         android:key="night_display_activated"
         android:title="@string/night_display_title"
         android:selectable="false"
+        settings:iconSpaceReserved="false"
         android:layout="@layout/night_display_activation_button"
         settings:allowDividerBelow="true"
         settings:keywords="@string/keywords_display_night_display"
