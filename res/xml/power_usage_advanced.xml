@@ -22,7 +22,8 @@
     settings:keywords="@string/keywords_battery">
 
     <com.android.settings.fuelgauge.BatteryHistoryPreference
-        android:key="battery_graph"/>
+        android:key="battery_graph"
+        settings:iconSpaceReserved="false"/>
 
     <PreferenceCategory
         android:key="app_list"
