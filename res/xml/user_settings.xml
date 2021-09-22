@@ -49,6 +49,7 @@
         android:key="multiuser_footer"
         android:title="@string/user_settings_footer_text"
         android:selectable="false"
+        android:layout="@layout/info_accent_card"
         settings:searchable="false"
         settings:controller="com.android.settings.users.MultiUserFooterPreferenceController"/>
 
