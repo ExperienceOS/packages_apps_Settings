@@ -69,6 +69,7 @@
 
     <Preference
         android:key="connection_preferences"
+        settings:iconSpaceReserved="false"
         android:title="@string/connected_device_connections_title"
         android:summary="@string/summary_placeholder"
         android:fragment="com.android.settings.connecteddevice.AdvancedConnectedDeviceDashboardFragment"
