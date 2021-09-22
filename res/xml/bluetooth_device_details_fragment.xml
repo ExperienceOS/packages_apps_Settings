@@ -50,6 +50,7 @@
     <com.android.settingslib.widget.FooterPreference
         android:key="device_details_footer"
         android:selectable="false"
+        android:layout="@layout/info_accent_card"
         settings:searchable="false"
         settings:controller="com.android.settings.bluetooth.BluetoothDetailsMacAddressController"/>
 
