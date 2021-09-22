@@ -25,6 +25,7 @@
     <Preference
         android:key="hardware_info_device_model"
         android:title="@string/model_info"
+        settings:iconSpaceReserved="false"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
         settings:controller="com.android.settings.deviceinfo.hardwareinfo.DeviceModelPreferenceController"
@@ -33,6 +34,7 @@
     <!-- Platform -->
     <Preference
         android:key="hardware_info_platform"
+        settings:iconSpaceReserved="false"
         android:title="@string/platform_revision"
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.deviceinfo.hardwareinfo.PlatformRevisionPreferenceController"
@@ -41,6 +43,7 @@
     <!-- Total RAM -->
     <Preference
         android:key="hardware_info_ram"
+        settings:iconSpaceReserved="false"
         android:title="@string/total_ram"
         android:summary="@string/summary_placeholder"
         settings:controller="com.android.settings.deviceinfo.hardwareinfo.TotalRAMPreferenceController"
@@ -49,6 +52,7 @@
     <!-- SerialNumber -->
     <Preference
         android:key="hardware_info_device_serial"
+        settings:iconSpaceReserved="false"
         android:title="@string/status_serial_number"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
@@ -58,6 +62,7 @@
     <!-- Hardware revision -->
     <Preference
         android:key="hardware_info_device_revision"
+        settings:iconSpaceReserved="false"
         android:title="@string/hardware_revision"
         android:summary="@string/summary_placeholder"
         android:selectable="false"
