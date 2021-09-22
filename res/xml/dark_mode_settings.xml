@@ -59,6 +59,7 @@
             android:title="@string/dark_ui_text"
             android:selectable="false"
             settings:searchable="false"
+            android:layout="@layout/info_accent_card"
             settings:allowDividerAbove="true"/>
 
 </PreferenceScreen>
