@@ -63,6 +63,7 @@
         android:key="night_display_footer"
         android:title="@string/night_display_text"
         android:selectable="false"
+        android:layout="@layout/info_accent_card"
         settings:allowDividerAbove="true"
         settings:controller="com.android.settings.display.NightDisplayFooterPreferenceController"/>
 
