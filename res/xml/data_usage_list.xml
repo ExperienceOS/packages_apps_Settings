@@ -24,7 +24,8 @@
 
         <Preference
             android:summary="@string/operator_warning"
-            android:selectable="false" />
+            android:selectable="false"
+            android:layout="@layout/info_accent_card" />
 
     </PreferenceCategory>
 
