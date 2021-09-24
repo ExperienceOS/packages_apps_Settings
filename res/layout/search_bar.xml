@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/search_bar"
     style="@style/SearchBarStyle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_gravity="bottom">
-    <ImageView
-        android:src="@drawable/cardview_search_background"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="fitXY"/>
-     <Toolbar
+    app:layout_scrollFlags="scroll|enterAlways">
+    <Toolbar
         android:id="@+id/search_action_bar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/search_bar_height"
@@ -19,14 +16,14 @@
         android:background="@drawable/search_bar_selected_background"
         android:contentInsetStartWithNavigation="@dimen/search_bar_content_inset"
         android:navigationIcon="@drawable/ic_homepage_search">
-     <TextView
-         android:id="@+id/search_action_bar_title"
-         style="@style/TextAppearance.SearchBar"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_gravity="left"
-         android:layout_marginStart="16dp"
-         android:text="@string/search_menu"/>
+        <TextView
+            android:id="@+id/search_action_bar_title"
+            style="@style/TextAppearance.SearchBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="16dp"
+            android:text="@string/search_menu"/>
     </Toolbar>
     <ImageView
         android:id="@+id/account_avatar"
