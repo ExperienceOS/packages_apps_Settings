@@ -26,7 +26,6 @@
         android:title="@string/network_dashboard_title"
         android:summary="@string/summary_placeholder"
         android:icon="@drawable/ic_settings_wifi_bbk_item"
-        android:layout="@layout/op_home_preference_card_top"  
         android:order="-120"
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         settings:controller="com.android.settings.network.TopLevelNetworkEntryPreferenceController"/>
@@ -35,7 +34,6 @@
         android:key="top_level_connected_devices"
         android:title="@string/connected_devices_dashboard_title"
         android:summary="@string/summary_placeholder"
-        android:layout="@layout/op_home_preference_card_bottom"  
         android:icon="@drawable/ic_settings_tether_item"
         android:order="-110"
         android:fragment="com.android.settings.connecteddevice.ConnectedDeviceDashboardFragment"
@@ -44,8 +42,7 @@
     <Preference
         android:key="top_level_display"
         android:title="@string/display_settings"
-        android:summary="@string/summary_placeholder"
-        android:layout="@layout/op_home_preference_card_top"  
+        android:summary="@string/summary_placeholder"  
         android:icon="@drawable/ic_settings_light_item"
         android:order="-100"
         android:fragment="com.android.settings.DisplaySettings"
@@ -54,7 +51,6 @@
     <Preference
         android:key="top_level_customizerhub"
         android:title="@string/customizerhub_title"
-        android:layout="@layout/op_home_preference_card_bottom"
         android:summary="@string/customizerhub_activity_summary"
         android:icon="@drawable/ic_settings_theme_item"
         android:order="-95"
@@ -64,7 +60,6 @@
         android:key="top_level_battery"
         android:title="@string/power_usage_summary_title"
         android:summary="@string/summary_placeholder"
-        android:layout="@layout/op_home_preference_card_top"  
         android:icon="@drawable/ic_com_iqoo_powersaving"
         android:fragment="com.android.settings.fuelgauge.PowerUsageSummary"
         android:order="-90"
@@ -72,8 +67,7 @@
 
     <Preference
         android:key="top_level_sound"
-        android:title="@string/sound_settings"
-        android:layout="@layout/op_home_preference_card_middle"  
+        android:title="@string/sound_settings"  
         android:summary="@string/sound_dashboard_summary"
         android:icon="@drawable/ic_settings_sound_item"
         android:order="-80"
@@ -83,16 +77,14 @@
         android:key="top_level_apps_and_notifs"
         android:title="@string/app_and_notification_dashboard_title"
         android:summary="@string/app_and_notification_dashboard_summary"
-        android:icon="@drawable/ic_com_android_systemui"
-        android:layout="@layout/op_home_preference_card_middle"  
+        android:icon="@drawable/ic_com_android_systemui"  
         android:order="-70"
         android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
 
     <Preference
         android:key="top_level_storage"
         android:title="@string/storage_settings"
-        android:summary="@string/summary_placeholder"
-        android:layout="@layout/op_home_preference_card_bottom"  
+        android:summary="@string/summary_placeholder"  
         android:icon="@drawable/ic_settings_ram_item"
         android:order="-60"
         android:fragment="com.android.settings.deviceinfo.StorageSettings"
@@ -101,7 +93,6 @@
     <Preference
         android:key="top_level_privacy"
         android:title="@string/privacy_dashboard_title"
-        android:layout="@layout/op_home_preference_card_top"  
         android:summary="@string/privacy_dashboard_summary"
         android:icon="@drawable/ic_privacy_settings"
         android:order="-55"
@@ -110,7 +101,6 @@
     <Preference
         android:key="top_level_location"
         android:title="@string/location_settings_title"
-        android:layout="@layout/op_home_preference_card_middle"  
         android:summary="@string/location_settings_loading_app_permission_stats"
         android:icon="@drawable/ic_location_settings"
         android:order="-50"
@@ -120,8 +110,7 @@
     <Preference
         android:key="top_level_security"
         android:title="@string/security_settings_title"
-        android:summary="@string/summary_placeholder"
-        android:layout="@layout/op_home_preference_card_middle"  
+        android:summary="@string/summary_placeholder"  
         android:icon="@drawable/ic_settings_security"
         android:order="-40"
         android:fragment="com.android.settings.security.SecuritySettings"
@@ -131,7 +120,6 @@
         android:key="top_level_accessibility"
         android:title="@string/accessibility_settings"
         android:summary="@string/accessibility_settings_summary"
-        android:layout="@layout/op_home_preference_card_bottom"  
         android:icon="@drawable/ic_shortcut_accessibility_settings"
         android:order="-30"
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"
@@ -141,7 +129,6 @@
         android:key="top_level_accounts"
         android:title="@string/account_dashboard_title"
         android:summary="@string/summary_placeholder"
-        android:layout="@layout/op_home_preference_card_top"  
         android:icon="@drawable/ic_settings_account_item"
         android:order="-20"
         android:fragment="com.android.settings.accounts.AccountDashboardFragment"
@@ -151,7 +138,6 @@
         android:key="top_level_system"
         android:title="@string/header_category_system"
         android:summary="@string/system_dashboard_summary"
-        android:layout="@layout/op_home_preference_card_top"  
         android:icon="@drawable/ic_system"
         android:order="10"
         android:fragment="com.android.settings.system.SystemDashboardFragment"/>
@@ -161,7 +147,6 @@
         android:title="@string/about_settings"
         android:summary="@string/summary_placeholder"
         android:icon="@drawable/ic_about_phone"
-        android:layout="@layout/op_home_preference_card_bottom"  
         android:order="20"
         android:fragment="com.android.settings.deviceinfo.aboutphone.MyDeviceInfoFragment"
         settings:controller="com.android.settings.deviceinfo.aboutphone.TopLevelAboutDevicePreferenceController"/>
