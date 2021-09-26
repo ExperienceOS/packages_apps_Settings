@@ -27,7 +27,6 @@
 
     <SwitchPreference
         android:key="gesture_device_controls_switch"
-        settings:iconSpaceReserved="false"
         android:title="@string/device_controls_setting_toggle"
         android:summary="@string/device_controls_setting_subtitle"
         app:keywords="@string/keywords_device_controls"
