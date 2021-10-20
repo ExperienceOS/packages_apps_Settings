@@ -38,7 +38,7 @@
 		android:background="@android:color/transparent"
                 android:descendantFocusability="blocksDescendants">
 
-                <com.google.android.material.appbar.AppBarLayout
+                <!--<com.google.android.material.appbar.AppBarLayout
                     android:layout_width="match_parent"
                     android:background="@android:color/transparent"
                     android:touchscreenBlocksFocus="false"
@@ -47,7 +47,7 @@
                     android:outlineProvider="none">
                     <!--<include layout="@layout/homepage_spacer"/>-->
                     <include layout="@layout/search_bar"/>
-                </com.google.android.material.appbar.AppBarLayout>
+                </com.google.android.material.appbar.AppBarLayout>-->
 
 		<FrameLayout
 		    android:id="@+id/contextual_cards_content"
@@ -65,5 +65,28 @@
             </LinearLayout>
 
     </com.android.settings.edgeeffect.SpringNestScrollView>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:touchscreenBlocksFocus="false"
+        android:keyboardNavigationCluster="false">
+        <LinearLayout
+            android:id="@+id/app_bar_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed">
+
+            <TextView
+                android:id="@+id/homepage_title"
+                android:text="@string/settings_label"
+                style="@style/HomepageTitleText"/>
+
+            <include layout="@layout/search_bar"/>
+
+        </LinearLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
