@@ -97,4 +97,7 @@
     <dimen name="list_security_top_margin">10dp</dimen>
     <dimen name="top_level_category_divider">8dp</dimen>
 
+    <!-- Homepage title -->
+    <dimen name="homepage_title_margin_bottom">8dp</dimen>
+    <dimen name="homepage_title_margin_horizontal">24dp</dimen>
 </resources>
